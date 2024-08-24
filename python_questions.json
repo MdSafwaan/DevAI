@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "question": "Write a Python function to calculate the area of a circle given its radius.",
+      "function_start": "def calculate_circle_area(radius):\n    # Your code here\n    "
+    },
+    {
+      "id": 2,
+      "question": "Write a Python function to check if a given number is prime.",
+      "function_start": "def is_prime(number):\n    # Your code here\n    "
+    },
+    {
+      "id": 3,
+      "question": "Write a Python function to reverse a string.",
+      "function_start": "def reverse_string(text):\n    # Your code here\n    "
+    },
+    {
+      "id": 4,
+      "question": "Write a Python function to find the factorial of a number.",
+      "function_start": "def factorial(n):\n    # Your code here\n    "
+    },
+    {
+      "id": 5,
+      "question": "Write a Python function to check if a string is a palindrome.",
+      "function_start": "def is_palindrome(text):\n    # Your code here\n    "
+    }
+  ]

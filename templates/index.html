@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="text-3xl font-bold mb-6">DevChallenge AI</h1>
+<p class="mb-4">Welcome to the DevBLink Coding Challenge! Test your Python skills and compete with others.</p>
+
+<form action="/login" method="post" class="mb-6">
+    <input type="text" name="username" placeholder="Enter your username" required class="px-4 py-2 border rounded">
+    <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded">Let's Go</button>
+</form>
+
+<button hx-get="/leaderboard-data" 
+        hx-target="#leaderboard-container" 
+        hx-trigger="click"
+        class="bg-green-500 text-white px-4 py-2 rounded">
+    View Leaderboard
+</button>
+<div id="leaderboard-container" class="mt-8"></div>
+{% endblock %}

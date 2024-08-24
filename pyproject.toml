@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "code challenge AI"
+version = "0.1.0"
+description = ""
+authors = ["MOHAMMED SAFWAN A <mohammedsafwan448@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.112.1"
+uvicorn = "^0.30.6"
+jinja2 = "^3.1.4"
+python-multipart = "^0.0.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
